@@ -8,7 +8,7 @@
 
   <ProgramsRepositoryHeaders>
     <Program>
-      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="1">
+      <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
         <Resident val="N"/>
         <SQL val="N"/>
         <ReturnValue>
@@ -16,14 +16,35 @@
           <ParametersAttributes/>
         </ReturnValue>
         <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
         <External val="N"/>
         <Offline val="N"/>
         <Closeopentasks val="N"/>
+        <RunProjectAs val="O"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified date="00/00/0000" time="00:00:00"/>
+        <LastModified _date="738917" _time="63348" date="01/02/2024" time="17:35:48"/>
       </Header>
-      <SourceFileTimeStamp _date="584389" date="01/01/1601" time="00:00:00"/>
+      <SourceFileTimeStamp _date="738917" _time="43548" date="01/02/2024" time="12:05:48"/>
+    </Program>
+    <Program>
+      <Header Description="ParentTask" ISN_2="1" LastIsn="1" id="2">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="738917" _time="63909" date="01/02/2024" time="17:45:09"/>
+      </Header>
+      <SourceFileTimeStamp _date="738917" _time="44109" date="01/02/2024" time="12:15:09"/>
     </Program>
   </ProgramsRepositoryHeaders>
 
